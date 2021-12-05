@@ -1,0 +1,232 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+
+.site-header #menu #youtube
+{
+    background-image: url(youtube.png);
+}
+
+.site-header #menu #youtube:hover {
+    background-image: url(youtubew.png);
+}
+
+.site-header #menu #vk
+{
+    background-image: url(vk.png);
+}
+.site-header #menu #vk:hover {
+    background-image: url(vkw.png);
+}
+
+.site-header #menu #twitch
+{
+    background-image: url(twitch.png);
+}
+.site-header #menu #twitch:hover {
+    background-image: url(twitchw.png);
+}
+
+.site-header #menu #steam
+{
+    background-image: url(steam.png);
+}
+.site-header #menu #steam:hover {
+    background-image: url(steamw.png);
+}
+
+.site-header #menu #discord
+{
+    background-image: url(discord.png);
+}
+.site-header #menu #discord:hover {
+    background-image: url(discordw.png);
+}
+
+.site-header{
+    background-image: url(header.png);
+    box-shadow: 0 2px 1px #ffffff;
+}
+.site-header h1 {
+    color: #868686;
+    font-family: "ObelixPro";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    float: left;
+    padding: 15px;
+    margin-left:10px;
+}
+#menu {
+    float: right;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+#menu ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+#menu ul li a{ 
+    font-size: 15px;
+    font-family: "ObelixPro";
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #868686;
+}
+#menu ul li a:hover{ 
+    color:#fff;
+    cursor: pointer;
+}
+
+div.main{
+    text-align: center;
+}
+main div.main {
+    background-image: url(thumb-1920-146458.jpg);
+    box-shadow: 0 2px 1px #ffffff;
+}
+main h1 {
+   margin-top: 0px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: "ObelixPro";
+    color: #b3b3b3;
+}
+.new
+{
+    margin-top: 2px;
+}
+
+.videoone:hover{
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, .5);
+  }
+
+.videotwo:hover{
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, .5);
+}
+
+.recomend {
+    margin-top: 0px;
+}
+.recomend h1 {
+    padding-top: 30px;
+}
+.recomend iframe{
+    margin-bottom: 15px;
+}
+
+.Sp.col-1-3{
+    padding-top: 10px;
+}
+
+.col-1-3 {
+    width: 33.3333333333%;
+    float: left;
+  }
+
+footer{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 2px;
+    background-image: url(header.png);
+    text-align: center;
+}
+span {
+    color: #b3b3b3;
+}
+
+footer div a{
+    color: #b3b3b3;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+}
+footer ul li a{ 
+    font-size: 12px;
+    font-family: "ObelixPro";
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #868686;
+}
+footer ul li a:hover{ 
+    color:#fff;
+    cursor: pointer;
+}
+footer .media{
+    text-align: left;
+    margin-left: 100px;
+}
+footer .navig{
+    text-align: right;
+    margin-right: 150px;
+}
+
+main#aboutme.container{
+    width: 100%;
+    height: 100%;
+}
+
+.imab{
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 30%;
+}
+
+main#aboutme{
+    background-image: url(thumb-1920-146458.jpg);
+    box-shadow: 0 2px 1px #ffffff;
+}
+main#aboutme h1
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: #b3b3b3;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main#aboutme p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #b3b3b3;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main#aboutme a{
+    color: #8b8b8b;
+    text-decoration: none;  
+}
+main#aboutme a:hover{
+    color:#fff;
+    cursor: pointer;
+}
+main#aboutme ul{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #b3b3b3;
+    font-family: 'Times New Roman', Times, serif;
+}
